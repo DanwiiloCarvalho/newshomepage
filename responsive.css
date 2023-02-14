@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+/*Mobile First*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    padding: 0px 15px;
+}
+
+.pagina-cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+.cabecalho-navegacao {
+    display: none;
+}
+
+img.secao-principal-artigo-img-desktop {
+    display: none;
+}
+
+img.secao-principal-artigo-img-mobile {
+    width: 100%;
+}
+
+article.secao-principal-artigo > div > h1 {
+    font-weight: 800;
+    font-size: 3rem;
+    padding: 20px 0;
+}
+
+.secao-principal-artigo-botao {
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    color: hsl(36, 100%, 99%);
+    padding: 15px 35px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    /* margin: 25px 0; */
+    margin-top: 25px;
+}
+
+p {
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);
+    line-height: 25px;
+}
+
+.secao-superior-secundaria {
+    background-color: hsl(240, 100%, 5%);
+    margin: 60px 0px;
+    padding: 30px 20px;
+    height: 450px;
+}
+
+.secao-secundaria-titulo {
+    color: hsl(35, 77%, 62%);
+    font-size: 1.8rem;
+}
+
+.secao-superior-secundaria div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: 325px;
+}
+
+.secao-secundaria-artigo h3 {
+    color: hsl(36, 100%, 99%);
+    padding: 10px 0px;
+}
+
+hr {
+    border: none;
+    background-color: hsl(233, 8%, 79%);
+    height: 0.1px;
+}
+
+.secao-inferior {
+    margin-bottom: 60px;
+}
+
+.secao-inferior-artigo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.secao-inferior-artigo > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.secao-inferior-artigo span {
+    color: hsl(233, 8%, 79%);
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.secao-inferior-artigo a {
+    color: black;
+}
+
+.secao-inferior-artigo img {
+    width: 100px;
+}
+
+/*Desktop width 1440px*/
+@media screen and (min-width: 1440px) {
+    
+}
