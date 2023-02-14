@@ -61,10 +61,13 @@ body {
 .cabecalho-navegacao > a:first-of-type {
     padding-top: 45px;
 }
-
+#burguer-menu {
+    cursor: pointer;
+}
 .close {
     align-self: flex-end;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 img.secao-principal-artigo-img-desktop {
