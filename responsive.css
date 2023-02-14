@@ -12,6 +12,7 @@
 
 body {
     padding: 0px 15px;
+    position: relative;
 }
 
 .pagina-cabecalho {
@@ -24,6 +25,46 @@ body {
 
 .cabecalho-navegacao {
     display: none;
+}
+
+/* @keyframes teste2 {
+    0% {right: 0%;top:0px;}
+    25% {right: -68%;top:0px;}
+} */
+
+.cabecalho-navegacao-opened {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 35px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 68%;
+    padding: 25px 15px;
+    animation-name: teste;
+    animation-duration: 2s;
+}
+
+@keyframes teste {
+    0% {right:-68%;top:0px;}
+    25% {right:0%;top:0px;}
+}
+
+.cabecalho-navegacao a {
+    color: hsl(236, 13%, 42%);
+    font-weight: 700;
+}
+
+.cabecalho-navegacao > a:first-of-type {
+    padding-top: 45px;
+}
+
+.close {
+    align-self: flex-end;
+    margin-top: 10px;
 }
 
 img.secao-principal-artigo-img-desktop {
