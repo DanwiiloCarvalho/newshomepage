@@ -149,6 +149,7 @@ hr {
     flex-direction: column;
     justify-content: space-between;
     padding: 5px 20px;
+    flex: 1;
 }
 
 .secao-inferior-artigo span {
